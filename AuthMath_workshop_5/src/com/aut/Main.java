@@ -13,7 +13,7 @@ public class Main {
         assertResult(multiplyResult, 1068, "multiply");
 
         int divideResult = AUTMath.divide(11,5);
-        assertResult(divideResult, 2.2, "divide");
+        assertResult(divideResult, (int)2.2, "divide");
 
         int factorial = AUTMath.factorial(7);
         assertResult(factorial, 5040, "factorial");
